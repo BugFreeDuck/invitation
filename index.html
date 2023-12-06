@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-
-    <div>
-        Privet
-    </div>
-    
+    <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
+        <div class="rounded-md">
+          <img src="/image.jpg" alt="" loading="lazy" class="rounded-md drop-shadow-lg">
+        </div>
+        <div class="col-start-3">
+          <img src="/image.jpg" alt="" loading="lazy" class="rounded-md drop-shadow-lg">
+        </div>
+        <div>
+          <img src="/image.jpg" alt="" loading="lazy" class="rounded-md drop-shadow-lg">
+        </div>
+        <div>
+          <img src="/image.jpg" alt="" loading="lazy" class="rounded-md drop-shadow-lg">
+        </div>
+        <div class="row-start-1 col-start-2 col-span-2">
+          <img src="/image.jpg" alt="" loading="lazy" class="rounded-md drop-shadow-lg">
+        </div>
+      </div>
 </body>
 </html>
